@@ -1,0 +1,53 @@
+.container{
+  display: flex;
+  
+  .btn-primary{
+    margin-left: 60px;
+    margin-top: 20px;
+    background: white;
+    display: flex;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 5px;
+    margin-right: 20px;
+    svg{
+      width: 35px;
+      height: 35px;
+    }
+    p{
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-left: 10px;
+
+      padding-right: 8px;
+    }
+}
+
+  .btn-secundary{
+    
+    margin-top: 20px;
+    background: rgba($color: #fff, $alpha: 0.4);
+    border: none;
+    display: flex;
+    padding: 10px 24px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 20px;
+    svg{
+      width: 35px;
+      height: 35px;
+    }
+    p{
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-left: 10px;
+
+      padding-right: 8px;
+    }
+  }
+
+}
