@@ -1,0 +1,56 @@
+.container{
+  background: #141414;
+  background-attachment: fixed;
+  margin-top: 13vh;
+  width: 100%;
+  max-width: 100%;
+}
+.info{
+  
+  
+  
+  height: auto !important;
+  margin-left: 60px;
+  
+  .sugestao{
+    position: absolute;
+    top: 85vh; /* Ajuste a posição inicial conforme necessário */
+    left: 50px; /* Ajuste a posição inicial conforme necessário */
+
+    z-index: 200;
+    p{
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 8px;
+    }
+    img{
+      position: relative;
+      z-index: 2;
+      width: 15%;
+      height: 15%;
+      margin-right: 20px;
+      
+      &:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+    }
+  }
+  .top10{
+    img{
+      width: 9%;
+      height: 15%;
+      margin-right: 20px;
+      
+      &:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+    }
+    svg{
+      width: 6%;
+      height: 1%;
+    }
+  }
+  }
